@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <link rel="icon" href="/favicon.ico" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      name="description"
+      content="Web site created using create-snowpack-app"
+    />
+    <!--
+      Snowpack will replace / with the value you have for `baseUrl` in `snowpack.config.js`.
+      Make sure to update it with your GitHub Page URL. https://<your-username>.github.io/<your-repo-name>
+
+      More about config options:
+      - https://www.snowpack.dev/reference/configuration#buildoptions.baseurl
+    -->
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="/_dist_/index.css"
+    />
+    <title>Snowpack & Tailwind App</title>
+  </head>
+  <body>
+
+    <div class="py-10 max-w-screen-xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="text-center">
+
+        <p class="text-base leading-6 text-red-400 font-semibold tracking-wide uppercase">
+          fox's 🦊
+        </p>
+
+        <h3 class="mt-2 text-3xl leading-8 font-extrabold tracking-tight text-gray-900 sm:text-4xl sm:leading-10">
+          Find foxes images
+        </h3>
+
+        <p class="mt-4 max-w-2xl text-xl leading-7 text-gray-500 mx-auto">
+          Use the "Find a Fox" button to add a picture of a fox to this page and scroll down for load more.<br>
+          And "Release Foxes" button to remove all pictures.
+          
+        </p>
+        
+        <button id="addButton" class="m-3 p-3 bg-red-200 font-mono">Find a Fox 🔎🏞</button>
+        <button id="deleteButton" class="m-3 p-3 border-red font-mono">Release Foxes 🐾</button>
+
+        <div class="flex-auto" id="images-container">
+
+        </div>
+    
+
+    <!-- Add more scripts here -->
+    <script type="module" src="/_dist_/index.js"></script>
+  </body>
+</html>
