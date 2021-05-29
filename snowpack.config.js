@@ -5,6 +5,6 @@ module.exports = {
     src: '/._dist_',
   },
   buildOptions: {
-    baseUrl: '',
+    baseUrl: 'https://alonso-pablo.github.io/practice-page_find-foxes-images-random/',
   },
 }
