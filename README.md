@@ -7,5 +7,5 @@ And "Release Foxes" button to remove all pictures.
 
 *pictures from: [Random Fox API](https://randomfox.ca/ "Random Fox API")* 
 
-# Preview
+# Preview:
 ![](https://i.imgur.com/7PP4W7b.png)
